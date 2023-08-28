@@ -3,7 +3,7 @@ import {HttpClient, HttpParams} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {FiltroSchema} from "../schemas/filtro.schema";
 
-const baseUrl = 'http://localhost:8080/cliente';
+const baseUrl = 'https://crud-avaliacao-production.up.railway.app/cliente';
 
 @Injectable({
   providedIn: 'root'
